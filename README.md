@@ -22,140 +22,22 @@
 - [Code of conduct](#code-of-conduct)
 - [Team](#team)
 
-# Summary
 
-The OSSU curriculum is a **complete education in computer science** using online materials.
-It's not merely for career training or professional development.
-It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all computing disciplines,
-and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own,
-but with support from a worldwide community of fellow learners.
 
-It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
-as it is assumed most of the people following this curriculum are already educated outside the field of CS.
-The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
-but specifically chosen to meet the following criteria.
 
-**Courses must**:
-- Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
-- Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science
 
-When no course meets the above criteria, the coursework is supplemented with a book.
-When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
 
-**Organization**. The curriculum is designed as follows:
-- *Intro CS*: for students to try out CS and see if it's right for them
-- *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
-- *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
-- *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
-
-**Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spreadsheet](https://docs.google.com/spreadsheets/u/3/d/1Std_G_5dnajzm289vlsthIJPFnuxN5yOYNDOoiz9Juc/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
-  
-> **Warning:** While the spreadsheet is a useful tool to estimate the time you need to complete this curriculum, it may not always be up-to-date with the curriculum. Use the [OSSU CS website](https://cs.ossu.dev) or [the repo](https://github.com/ossu/computer-science) to see what courses to do.
-
-**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
-Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
-
-Decide how much or how little to spend based on your own time and budget;
-just remember that you can't purchase success!
-
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-- We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week. A popular option is to take the math courses in parallel with the introductory courses. Course prerequisites are listed to help you determine if you are prepared for a given course.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject; the Discord community may provide feedback on your planned subject.
-
-**Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Respect the code of conduct* that you signed in the beginning of each course!
-
-**[How to contribute](CONTRIBUTING.md)**
-
-**[Getting help](HELP.md)** (Details about our FAQ and chatroom)
-
-# Community
-
-- We have a Discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/wuytwK5s9h) This should be your first stop to talk with other OSSU students. Why don't you introduce yourself right now? [Join the OSSU Discord](https://discord.gg/wuytwK5s9h)
-- You can also interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
-- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-
-> **Warning:** There are a few third-party/deprecated/outdated material that you might find when searching for OSSU. We recommend you to ignore them, and only use the [OSSU CS website](https://cs.ossu.dev) or [OSSU CS Github Repo](https://github.com/ossu/computer-science). Some known outdated materials are:
->  - An unmaintained and deprecated firebase app. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
->  - An unmaintained and deprecated trello board
->  - Third-party notion templates
-
-# Curriculum
-
-- [Prerequisites](#prerequisites)
-- [Intro CS](#intro-cs)
-- [Core CS](#core-cs)
-  - [Core programming](#core-programming)
-  - [Core math](#core-math)
-  - [CS Tools](#cs-tools)
-  - [Core systems](#core-systems)
-  - [Core theory](#core-theory)
-  - [Core security](#core-security)
-  - [Core applications](#core-applications)
-  - [Core ethics](#core-ethics)
-- [Advanced CS](#advanced-cs)
-  - [Advanced programming](#advanced-programming)
-  - [Advanced systems](#advanced-systems)
-  - [Advanced theory](#advanced-theory)
-  - [Advanced information security](#advanced-information-security)
-  - [Advanced math](#advanced-math)
-- [Final project](#final-project)
-
----
-
-## Prerequisites
-
-- [Core CS](#core-cs) assumes the student has already taken [high school math](https://ossu.dev/precollege-math), including algebra, geometry, and pre-calculus.
-- [Advanced CS](#advanced-cs) assumes the student has already taken the entirety of Core CS
-and is knowledgeable enough now to decide which electives to take.
-- Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
-
-## Intro CS
-
-This course will introduce you to the world of computer science and programming. This course gives you a flavor of the material to come. If you finish the course wanting more, Computer Science is likely for you!
-
-**Topics covered**:
-`computation`
-`imperative programming`
-`basic data structures and algorithms`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-✅[Introduction to Computer Science and Programming using Python](coursepages/intro-cs/README.md) | 14 weeks | 6-10 hours/week | [high school algebra](https://ossu.dev/precollege-math) | [chat](https://discord.gg/jvchSm9)
 
 ## Core CS
 
 All coursework under Core CS is **required**, unless otherwise indicated.
 
-### Core programming
-**Topics covered**:
-`functional programming`
-`design for testing`
-`program requirements`
-`common design patterns`
-`unit testing`
-`object-oriented design`
-`static typing`
-`dynamic typing`
-`ML-family languages (via Standard ML)`
-`Lisp-family languages (via Racket)`
-`Ruby`
-`and more`
+
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-✅[Systematic Program Design](coursepages/spd/README.md) | 13 weeks | 8-10 hours/week | none | chat: [part 1](https://discord.gg/RfqAmGJ) / [part 2](https://discord.gg/kczJzpm)
-✅[Class-based Program Design](https://course.ccs.neu.edu/cs2510sp22/index.html) | 13 weeks | 5-10 hours/week | Systematic Program Design, High School Math | [chat](https://discord.com/channels/744385009028431943/891411727294562314)
-✅[Programming Languages, Part A](https://www.coursera.org/learn/programming-languages) | 5 weeks | 4-8 hours/week | Systematic Program Design ([Hear instructor](https://www.coursera.org/lecture/programming-languages/recommended-background-k1yuh)) | [chat](https://discord.gg/8BkJtXN)
-✅[Programming Languages, Part B](https://www.coursera.org/learn/programming-languages-part-b) | 3 weeks | 4-8 hours/week | Programming Languages, Part A | [chat](https://discord.gg/EeA7VR9)
 [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c) | 3 weeks | 4-8 hours/week | Programming Languages, Part B | [chat](https://discord.gg/8EZUVbA)
-✅[Object-Oriented Design](https://course.ccs.neu.edu/cs3500f19/) | 13 weeks | 5-10 hours/week | Class Based Program Design | [chat](https://discord.com/channels/744385009028431943/891412022120579103)
-✅[Software Architecture](https://www.coursera.org/learn/software-architecture) | 4 weeks | 2-5 hours/week | Object Oriented Design | [chat](https://discord.com/channels/744385009028431943/891412169638432788)
+
 
 ### Core math
 Discrete math (Math for CS) is a prerequisite and closely related to the study of algorithms and data structures. Calculus both prepares students for discrete math and helps students develop mathematical maturity.
@@ -170,25 +52,8 @@ Discrete math (Math for CS) is a prerequisite and closely related to the study o
 
 Courses | Duration | Effort | Notes | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
-✅[Calculus 1A: Differentiation](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.1x+2T2019/about) ([alternative](https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/index.htm)) | 13 weeks | 6-10 hours/week | The alternate covers this and the following 2 courses | [high school math](https://ossu.dev/precollege-math) | [chat](https://discord.gg/mPCt45F)
-✅[Calculus 1B: Integration](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.2x+3T2019/about) | 13 weeks | 5-10 hours/week | - | Calculus 1A | [chat](https://discord.gg/sddAsZg)
-[Calculus 1C: Coordinate Systems & Infinite Series](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+18.01.3x+1T2020/about) | 6 weeks | 5-10 hours/week | - | Calculus 1B | [chat](https://discord.gg/FNEcNNq)
-[Mathematics for Computer Science](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+6.042J+2T2019/about) ([alternative](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/)) | 13 weeks | 5 hours/week | [2015/2019 solutions](https://github.com/spamegg1/Math-for-CS-solutions) [2010 solutions](https://github.com/frevib/mit-cs-math-6042-fall-2010-problems) [2005 solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2005/assignments/). | Calculus 1C | [chat](https://discord.gg/EuTzNbF)
+Linear Algebra | Udemy | |  |  |
 
-
-### CS Tools
-Understanding theory is important, but you will also be expected to create programs. There are a number of tools that are widely used to make that process easier. Learn them now to ease your future work writing programs.
-
-**Topics covered**:
-`terminals and shell scripting`
-`vim`
-`command line environments`
-`version control`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | 2 weeks | 12 hours/week | - | [chat](https://discord.gg/5FvKycS)
 
 ### Core systems
 
